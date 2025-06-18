@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 👉 ВСТАВЬ СЮДА СВОЙ Google Apps Script URL:
   const SCRIPT_URL =
-    "https://script.google.com/a/macros/asbt.uz/s/AKfycbwJWpJGkPd6MzVL-mCFPkCeXmXnZYvCi68uSiMHGfV6KvZIn_mJ5C66u5XRiy7p35MS/exec";
+    "https://script.google.com/macros/s/AKfycbwXgQdN3GU74rRS58gyV61BkcLSknqrp4nEPAAUu37SjvCq6FRt0cQDPMllWxwou_vs/exec";
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();

@@ -1,6 +1,6 @@
 // ✅ Полный script.js для отправки Daily отчётов в Google Sheets
 const SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbwXgQdN3GU74rRS58gyV61BkcLSknqrp4nEPAAUu37SjvCq6FRt0cQDPMllWxwou_vs/exec";
+  "https://script.google.com/macros/s/AKfycbwEgnYpQRSn63b1eECExEi3ULU8WWzvSWiTVEjjmJigfc1LE4F2WfsEoGPkwqXcJWFt/exec";
 
 const dailyform = document.getElementById("dailyForm");
 dailyform.addEventListener("submit", function (e) {

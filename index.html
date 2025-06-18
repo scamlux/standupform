@@ -2,37 +2,25 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Daily Report Form</title>
+    <title>Ежедневный отчет команды</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>🗓 Ежедневный отчет команды</h1>
-      <form>
-        <label>
-          Имя:
-          <input type="text" name="name" required placeholder="Ваше имя" />
-        </label>
-        <label>
-          Сегодня:
-          <textarea
-            name="today"
-            required
-            placeholder="Что сделал(а) сегодня"
-          ></textarea>
-        </label>
-        <label>
-          Завтра:
-          <textarea
-            name="tomorrow"
-            required
-            placeholder="Что планируешь завтра"
-          ></textarea>
-        </label>
-        <label>
-          Блокеры:
-          <textarea name="blocker" placeholder="Есть ли блокеры?"></textarea>
-        </label>
+      <h1>🗓️ Ежедневный отчет команды</h1>
+      <form id="dailyForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="today">Сегодня:</label>
+        <textarea id="today" name="today" required></textarea>
+
+        <label for="tomorrow">Завтра:</label>
+        <textarea id="tomorrow" name="tomorrow" required></textarea>
+
+        <label for="blockers">Блокеры:</label>
+        <textarea id="blockers" name="blockers"></textarea>
+
         <button type="submit">📤 Отправить</button>
       </form>
     </div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daily Report Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🗓 Ежедневный отчет команды</h1>
+      <form>
+        <label>
+          Имя:
+          <input type="text" name="name" required placeholder="Ваше имя" />
+        </label>
+        <label>
+          Сегодня:
+          <textarea
+            name="today"
+            required
+            placeholder="Что сделал(а) сегодня"
+          ></textarea>
+        </label>
+        <label>
+          Завтра:
+          <textarea
+            name="tomorrow"
+            required
+            placeholder="Что планируешь завтра"
+          ></textarea>
+        </label>
+        <label>
+          Блокеры:
+          <textarea name="blocker" placeholder="Есть ли блокеры?"></textarea>
+        </label>
+        <button type="submit">📤 Отправить</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
